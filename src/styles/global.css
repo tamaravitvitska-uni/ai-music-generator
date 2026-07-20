@@ -1,0 +1,21 @@
+/* Tailwind v4 utilities (the funnel components use utility classes for layout). */
+@import 'tailwindcss';
+/* Brand tokens consumed via var(--token) throughout the funnel. */
+@import './tokens.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-primary);
+  color: var(--color-text-primary);
+  background: var(--color-bg-white-bg);
+  -webkit-font-smoothing: antialiased;
+}

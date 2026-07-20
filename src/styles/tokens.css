@@ -1,0 +1,48 @@
+/*
+ * Brand design tokens (PDFLeader).
+ * These are the exact values the funnel references via var(--token). They stand
+ * in for the shared design-system theme so this project is self-contained.
+ * Light, productivity-app aesthetic: white / light-grey surfaces, blue primary.
+ */
+:root {
+  /* Surfaces */
+  --color-bg-white-bg: #ffffff;
+  --color-bg-light-grey: #f5f5f7;
+  --color-bg-dark: #323232;
+
+  /* Primary (blue) */
+  --color-primary: #4988fc;
+  --color-primary-contrast-text: #ffffff;
+
+  /* Primary opacity ladder — hover / selected / hairline states */
+  --color-primary-opacity-8: #4988fc14;
+  --color-primary-opacity-12: #4988fc1f;
+  --color-primary-opacity-16: #4988fc29;
+  --color-primary-opacity-32: #4988fc52;
+  --color-primary-opacity-40: #4988fc66;
+  --color-primary-opacity-50: #4988fc80;
+
+  /* Primary tonal stops — used for subtle gradient accents (blue → indigo) */
+  --color-primary-filled-600: #4988fc;
+  --color-primary-filled-900: #4042b4;
+
+  /* Secondary + status */
+  --color-secondary: #13c296;
+  --color-success-main: #0e9948;
+  --color-error-main: #f23030;
+
+  /* Text */
+  --color-text-primary: #393939;
+  --color-text-secondary: #393939b2; /* 70% */
+  --color-text-disabled: #39393996; /* ~60% */
+
+  /* Radius scale (4 → 32px) */
+  --radius-3: 0.625rem; /* 10px */
+  --radius-4: 0.75rem; /* 12px */
+  --radius-5: 1rem; /* 16px */
+  --radius-6: 1.25rem; /* 20px */
+  --radius-7: 2rem; /* 32px */
+
+  /* Type */
+  --font-primary: 'Montserrat', 'Montserrat Fallback', Arial, Helvetica, sans-serif;
+}
